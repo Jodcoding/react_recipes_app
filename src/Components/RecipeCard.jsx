@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { nanoid } from 'nanoid'
-import Description from './Description'
+import Description from './Description.jsx'
 
 function RecipeCard(props) {
 

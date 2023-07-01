@@ -1,7 +1,7 @@
 import { useState } from 'react'
 // import {spinner} from './assets/spinner.svg'
 import spinner from './assets/spinner.svg'
-import RecipeCard from './Components/RecipeCard'
+import RecipeCard from './Components/RecipeCard.jsx'
 import { nanoid } from 'nanoid'
 function App() {
   const [recipeValue, setRecipeValue] = useState("")
